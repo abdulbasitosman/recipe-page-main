@@ -142,7 +142,7 @@ tbody *:not(:last-child) td {
     font-weight: var(--fw-700);
 }
 
-@media screen and (width > 375px) {
+@media screen and (min-width: 375px) {
     .image-wrapper {
         max-width: 90%;
         margin-inline: auto;
